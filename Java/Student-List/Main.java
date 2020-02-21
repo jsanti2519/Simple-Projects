@@ -25,6 +25,6 @@ class Main {
     }
 
     for(int i = 0; i < StudentList.length; i++) //can I type StudentList[j] instead of breaking it down by variables???
-      JOptionPane.showMessageDialog(StudentList[j].name + "\n" + StudentList[j].id + "\n" + StudentList[j].gpa + "\n");
+      JOptionPane.showMessageDialog(null, StudentList[j].name + "\n" + StudentList[j].id + "\n" + StudentList[j].gpa + "\n");
   } //method main
 }
