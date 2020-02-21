@@ -1,7 +1,5 @@
-import javax.swing.JOptionPane;
 /**
 @author: Jonathan Santiago
-version (1)
 Objective: Print Students' information using TextFileInput.java and a text file containing that information.
 */
 
@@ -25,6 +23,6 @@ class Main {
     }
 
     for(int i = 0; i < StudentList.length; i++) //can I type StudentList[j] instead of breaking it down by variables???
-      JOptionPane.showMessageDialog(null, StudentList[j].name + "\n" + StudentList[j].id + "\n" + StudentList[j].gpa + "\n");
+      System.out.println(StudentList[j].name + "\n" + StudentList[j].id + "\n" + StudentList[j].gpa + "\n");
   } //method main
 }
