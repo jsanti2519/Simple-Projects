@@ -1,5 +1,5 @@
 /*
-A group of three aliens arrive on Earth to dominate the U.S. President for attempting to send Voyager ships to spy on them from a galaxy far away. Using the aliens' far more advanced technology,
+A group of three aliens arrive on Earth to dominate the U.S. for attempting to send Voyager ships to spy on them from a galaxy far away. Using the aliens' far more advanced technology,
 they are able to transport to Earth at light speed and destroy all 50 states. However, each alien gets a fair share of the number of states they get to destroy. Using this algorithm below, a
 group of 3 aliens are able to have a fair share of states that they get to wipe out completely.
 */
