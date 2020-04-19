@@ -2,6 +2,7 @@
 Fancy N-Queens Problem
 @author: Jonathan Santiago
 April 18th, 2020
+version(2)
 */
 
 #include <iostream>
@@ -47,14 +48,16 @@ void print(int q[], int n) {
   //setting up n x n board
   for(i = 0; i < n; i++)
     for(j = 0; j < n; j++){
-      if((i + j) % 2 == 0) {
-        if(q[j] == i) board[i][j] = &wq;
-        else board[i][j] = &wb;
-      } else {
-        if(q[j] == i) board[i][j] = &bq;
-        else board[i][j] = &bb;
+      if((i + j) % 2 == 0) board[i][j] = &wb;
+      else board[i][j] = &bb;
       }
-    }
+
+  //setting up a queen on the designated box in the board
+  for(i = 0; i < n; i++)
+    if((q[i] + i) % 2 == 0) board[q[i]][i] = &wq;
+    else board[q[i]][i] = &bq;
+
+
 
   //printing n x n board starting with upper border
   cout << " ";
